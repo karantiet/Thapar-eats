@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>food menu</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body style="background: #eaf2f5;">
+   
+<header class="header">
+
+   <section class="flex">
+
+      <a href="home.html" class="logo">Amritsari Kulcha Zone 😋</a>
+
+     
+
+      <div class="icons">
+         <a href="search.html"><i class="fas fa-search"></i></a>
+         <a href="cart.html"><i class="fas fa-shopping-cart"></i><span>(3)</span></a>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+
+      <div class="profile">
+         <p class="name">User</p>
+         <div class="flex">
+            <a href="profile.html" class="btn">profile</a>
+            <a href="#" class="delete-btn">logout</a>
+         </div>
+         <p class="account"><a href="login.html">login</a> or <a href="register.html">register</a></p>
+      </div>
+
+   </section>
+
+</header>
+
+<div class="heading">
+   <h3>our menu</h3>
+   
+</div>
+
+<section class="products">
+
+   
+
+   <div class="box-container">
+
+      <form accept="" method="post" class="box">
+         
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://b.zmtcdn.com/data/pictures/chains/2/122622/9f43059660b91f90ffb8e59dec8140b7.jpeg" alt="">
+         
+         <div class="name">Amritsari Kulcha</div>
+         <div class="flex">
+            <div class="price"><span>₹</span>80<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="0" max="99" value="0" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://mytastycurry.com/wp-content/uploads/2017/02/Malai-Soya-Chaap-.jpg" alt="">
+         
+         <div class="name">Malai Chaap</div>
+         <div class="flex">
+            <div class="price"><span>₹</span>140<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="0" max="99" value="0" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://maharajachaap.com/wp-content/uploads/2018/09/afghani-garlic-chaap.jpg" alt="">
+         
+         <div class="name">Afghani Chaap</div>
+         <div class="flex">
+            <div class="price"><span>₹</span>120<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="0" max="99" value="0" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://www.vegrecipesofindia.com/wp-content/uploads/2021/04/lassi-recipe-1.jpg" alt="">
+         
+         <div class="name">Lassi</div>
+         <div class="flex">
+            <div class="price"><span>₹</span>50<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="0" max="99" value="0" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://www.livofy.com/health/wp-content/uploads/2023/06/Untitled-design-22-1024x576.png" alt="">
+         
+         <div class="name">Mushroom Tikka</div>
+         <div class="flex">
+            <div class="price"><span>₹</span>130<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="0" max="99" value="0" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://www.cookingcurries.com/wp-content/uploads/2017/05/Paneer-Tikka-500x500.jpg" alt="">
+         
+         <div class="name">Paneer Tikka</div>
+         <div class="flex">
+            <div class="price"><span>₹</span>160<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="0" max="99" value="0" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+   </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+   <section class="box-container">
+
+      <div class="box">
+         <img src="images/email-icon.png" alt="">
+         <h3>our email</h3>
+         <a href="mailto:thapareats@gmail.com">thapareats@gmail.com</a>
+      </div>
+
+      <div class="box">
+         <img src="images/clock-icon.png" alt="">
+         <h3>opening hours</h3>
+         <p>10:00am to 09:00pm </p>
+      </div>
+
+      <div class="box">
+         <img src="images/map-icon.png" alt="">
+         <h3>our address</h3>
+         <a href="https://www.google.com/maps">Patiala, India </a>
+      </div>
+
+      <div class="box">
+         <img src="images/phone-icon.png" alt="">
+         <h3>our number</h3>
+         <a href="tel:1234567890">+00 1234567890</a>
+         
+      </div>
+
+   </section>
+
+   <div class="credit">&copy; Designed & 👨‍💻 by   <span>Karan Chhabra / Divesh Goel / NankiNoor</span> | all rights reserved!</div>
+
+</footer>
+
+<div class="loader">
+   <img src="images/loader.gif" alt="">
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

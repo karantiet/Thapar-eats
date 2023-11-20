@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>food menu</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body style="background: #eaf2f5;">
+   
+<header class="header">
+
+   <section class="flex">
+
+      <a href="home.html" class="logo">G Block Cafeteria 😋</a>
+
+     
+
+      <div class="icons">
+         <a href="search.html"><i class="fas fa-search"></i></a>
+         <a href="cart.html"><i class="fas fa-shopping-cart"></i><span>(1)</span></a>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+
+      <div class="profile">
+         <p class="name">User</p>
+         <div class="flex">
+            <a href="profile.html" class="btn">profile</a>
+            <a href="#" class="delete-btn">logout</a>
+         </div>
+         <p class="account"><a href="login.html">login</a> or <a href="register.html">register</a></p>
+      </div>
+
+   </section>
+
+</header>
+
+<div class="heading">
+   <h3>our menu</h3>
+   
+</div>
+
+<section class="products">
+
+   
+
+   <div class="box-container">
+
+      <form accept="" method="post" class="box">
+         
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://c.ndtvimg.com/2023-03/0m65kep_samosa_625x300_10_March_23.jpg" alt="">
+         
+         <div class="name">Samosa</div>
+         <div class="flex">
+            <div class="price"><span>₹</span>10<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="0" max="99" value="0" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+
+      <form accept="" method="post" class="box">
+         
+        <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+        <img src="https://myfoodstory.com/wp-content/uploads/2018/08/Dal-Makhani-New-3.jpg" alt="">
+        
+        <div class="name">Dal Makhni</div>
+        <div class="flex">
+           <div class="price"><span>₹</span>180<span>/-</span></div>
+           <input type="number" name="qty" class="qty" min="0" max="99" value="0" onkeypress="if(this.value.length == 2) return false;">
+        </div>
+     </form>
+
+     <form accept="" method="post" class="box">
+         
+        <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+        <img src="https://www.cookwithmanali.com/wp-content/uploads/2022/02/15-Minute-Easy-Kadai-Paneer.jpg" alt="">
+        
+        <div class="name">Kadai Paneer</div>
+        <div class="flex">
+           <div class="price"><span>₹</span>220<span>/-</span></div>
+           <input type="number" name="qty" class="qty" min="0" max="99" value="0" onkeypress="if(this.value.length == 2) return false;">
+        </div>
+     </form>
+
+     <form accept="" method="post" class="box">
+         
+        <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+        <img src="https://www.cookwithmanali.com/wp-content/uploads/2014/11/Soft-Homemade-Naan.jpg" alt="">
+        
+        <div class="name">Butter Naan</div>
+        <div class="flex">
+           <div class="price"><span>₹</span>12<span>/-</span></div>
+           <input type="number" name="qty" class="qty" min="0" max="99" value="0" onkeypress="if(this.value.length == 2) return false;">
+        </div>
+     </form>
+
+      <form accept="" method="post" class="box">
+         
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://www.vegrecipesofindia.com/wp-content/uploads/2010/08/bread-pakora-recipe-500x500.jpg" alt="">
+         
+         <div class="name">Bread Pakora</div>
+         <div class="flex">
+            <div class="price"><span>₹</span>15<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="0" max="99" value="0" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         
+        <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+        <img src="https://m.media-amazon.com/images/I/61cE2fNiWyL._AC_UF894,1000_QL80_.jpg" alt="">
+        
+        <div class="name">Cold Drink</div>
+        <div class="flex">
+           <div class="price"><span>₹</span>25<span>/-</span></div>
+           <input type="number" name="qty" class="qty" min="0" max="99" value="0" onkeypress="if(this.value.length == 2) return false;">
+        </div>
+     </form>
+
+      <form accept="" method="post" class="box">
+         
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs8cRO_iOWbZXZlEMODkri7A1p61kuIpwORw&usqp=CAU" alt="">
+         
+         <div class="name">Tea</div>
+         <div class="flex">
+            <div class="price"><span>₹</span>10<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="0" max="99" value="0" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://i.pinimg.com/736x/69/45/24/694524cf653f18816f463b3be86a0479.jpg" alt="">
+         
+         <div class="name">Coffee</div>
+         <div class="flex">
+            <div class="price"><span>₹</span>15<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="0" max="99" value="0" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         
+        <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+        <img src="https://vegecravings.com/wp-content/uploads/2017/03/veg-hakka-noodles-recipe-with-step-by-step-instructions.jpg" alt="">
+        
+        <div class="name">Veg. Noodles</div>
+        <div class="flex">
+           <div class="price"><span>₹</span>65<span>/-</span></div>
+           <input type="number" name="qty" class="qty" min="0" max="99" value="0" onkeypress="if(this.value.length == 2) return false;">
+        </div>
+     </form>
+
+     <form accept="" method="post" class="box">
+         
+        <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+        <img src="https://www.licious.in/blog/wp-content/uploads/2021/09/shutterstock_1650877375-750x750.jpg" alt="">
+        
+        <div class="name">Veg. Munchurian</div>
+        <div class="flex">
+           <div class="price"><span>₹</span>135<span>/-</span></div>
+           <input type="number" name="qty" class="qty" min="0" max="99" value="0" onkeypress="if(this.value.length == 2) return false;">
+        </div>
+     </form>
+
+      <form accept="" method="post" class="box">
+         
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://www.thecococompany.com/cdn/shop/products/Veg-Patty_grande.jpg?v=1578043022" alt="">
+         
+         <div class="name">Patty</div>
+         <div class="flex">
+            <div class="price"><span>₹</span>10<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="0" max="99" value="0" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+
+
+      <form accept="" method="post" class="box">
+         
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://theobroma.in/cdn/shop/products/TheosEgglessDutchTrufflePastry1.jpg?v=1632145521" alt="">
+         
+         <div class="name">Pastry</div>
+         <div class="flex">
+            <div class="price"><span>₹</span>20<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="0" max="99" value="0" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+   </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+   <section class="box-container">
+
+      <div class="box">
+         <img src="images/email-icon.png" alt="">
+         <h3>our email</h3>
+         <a href="mailto:diveshgoel5861@gmail.com">diveshgoel5861@gmail.com</a>
+      </div>
+
+      <div class="box">
+         <img src="images/clock-icon.png" alt="">
+         <h3>opening hours</h3>
+         <p>10:00am to 09:00pm </p>
+      </div>
+
+      <div class="box">
+         <img src="images/map-icon.png" alt="">
+         <h3>our address</h3>
+         <a href="https://www.google.com/maps">Patiala, India </a>
+      </div>
+
+      <div class="box">
+         <img src="images/phone-icon.png" alt="">
+         <h3>our number</h3>
+         <a href="tel:1234567890">+00 1234567890</a>
+         
+      </div>
+
+   </section>
+
+   <div class="credit">&copy; Designed & 👨‍💻 by  <span>Karan Chhabra / Divesh Goel / NankiNoor</span> | all rights reserved!</div>
+
+</footer>
+
+<div class="loader">
+   <img src="images/loader.gif" alt="">
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
