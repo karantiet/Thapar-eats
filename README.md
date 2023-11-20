@@ -6,6 +6,6 @@ Build a responsive webpage For My 5th Semester Project work in My UI/UX Elective
 
 Live demo : https://thapareats.netlify.app
 
-Team Members: Karan Chhabra
-              Divesh Goel
+Team Members: Karan Chhabra,
+              Divesh Goel,
               NankiNoor 
